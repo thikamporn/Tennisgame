@@ -57,4 +57,9 @@ describe ( "Tennis Game" ,function()
         var score = teampoint(15,0);
     }
     //case 4 ไม่ผิดแน่งับบ
+  it('Should be "fifteen-thirty" when A=15 and b=30'),function()
+    {
+        var score = teampoint(15,30);
+    }
+    //ง่วงแล้วง่าาา
 });
