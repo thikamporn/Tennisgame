@@ -71,4 +71,9 @@ describe ( "Tennis Game" ,function()
     {
        var score = teampoint(30,0);
     }
+  it('Should be "thirty-fifteen" when A=30 and B=15'),function()
+    {
+       var score = teampoint(30,15);
+    }
+    //case 8 go up
 });
