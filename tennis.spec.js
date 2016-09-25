@@ -94,4 +94,9 @@ describe ( "Tennis Game" ,function()
         var score = teampoint(40,30);
     }
     //เพื่อนบอกได้เรื่อยๆ งงไปหมดแล้วตอนนี้555
+  it('Should be "Love-fifteen" when A=0 and B=15'),function()
+    {
+        var score = teampoint(0,15);
+    }
+    //รู้สึกว่าโค้ดเราถึกไปมั้ย5555
 });
