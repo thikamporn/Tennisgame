@@ -15,10 +15,18 @@ function teampoint(SA,SB)
      {
          str += 'fifteen-';
      }
-   if(SB === 15)
+    if(SB === 15)
      {
          str += 'fifteen';
      }
+     if(SA === 30)
+       {
+           str += 'thirty-';
+       }
+     if(SB === 30)
+       {
+           str += 'thirty';
+       }
     return str;
   }
 
@@ -32,5 +40,10 @@ describe ( "Tennis Game" ,function()
     {
          var score = teampoint(15,15);
     }
-    //case 1 test
+  it('Should be "thirty-thirty" when A=30 and B=30'),function()
+    {
+        var score = teampoint(30,30);
+    }
+    //เคสที่แล้วต้องเป็นเคสสองดิ้
+    //อันนี้เคสสามมมมมม
 });
