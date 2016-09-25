@@ -80,4 +80,8 @@ describe ( "Tennis Game" ,function()
     {
        var score = teampoint(30,40);
     }
+  it('Should be "A Win the game" when A=40 and B=0'),function()
+    {
+        var score = teampoint(40,0);
+    }
 });
