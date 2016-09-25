@@ -104,5 +104,11 @@ describe ( "Tennis Game" ,function()
         var score = teampoint(0,30);
     }
     //คนมันถึก โค้ดเลยถึก 555
-    //มีเคสซ้ำ case8 อันนี้เลยเป็น case 14 แทนนะ
+  it('Should be "B Win the game" when A=0 and B=40'),function()
+    {
+        var score = teampoint(0,40);
+    }
+    //case 15 let it goooo
+
+      break;
 });
