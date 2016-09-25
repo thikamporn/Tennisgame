@@ -62,4 +62,9 @@ describe ( "Tennis Game" ,function()
         var score = teampoint(15,30);
     }
     //ง่วงแล้วง่าาา
+  it('Should be "B Win the game" when A=15 and B=40'),function()
+    {
+       var score = teampoint(15,40);
+    }
+    //อีกนิดนะ อึ๊บๆ
 });
