@@ -32,6 +32,5 @@ describe ( "Tennis Game" ,function()
     {
          var score = teampoint(15,15);
     }
-    aaaaaaaaa 
     //case 2 test
 });
