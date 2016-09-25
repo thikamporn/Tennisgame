@@ -67,4 +67,8 @@ describe ( "Tennis Game" ,function()
        var score = teampoint(15,40);
     }
     //อีกนิดนะ อึ๊บๆ
+  it('Should be "thirty-Love" when A=30 and B=0'),function()
+    {
+       var score = teampoint(30,0);
+    }
 });
