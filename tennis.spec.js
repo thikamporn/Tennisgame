@@ -23,10 +23,18 @@ function teampoint(SA,SB)
        {
            str += 'thirty-';
        }
-     if(SB === 30)
+    if(SB === 30)
        {
            str += 'thirty';
        }
+    if(SA === 40)
+     {
+         str = 'A Win the game';
+     }
+    if(SB === 40)
+     {
+         str = 'B Win the game';
+     }
     return str;
   }
 
@@ -44,4 +52,9 @@ describe ( "Tennis Game" ,function()
     {
         var score = teampoint(30,30);
     }
+  it('Should be "fifteen-Love" when A=15 and B=0'),function()
+    {
+        var score = teampoint(15,0);
+    }
+    //case 4 ไม่ผิดแน่งับบ
 });
