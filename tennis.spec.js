@@ -44,6 +44,4 @@ describe ( "Tennis Game" ,function()
     {
         var score = teampoint(30,30);
     }
-    //เคสที่แล้วต้องเป็นเคสสองดิ้
-    //อันนี้เคสสามมมมมม
 });
