@@ -89,4 +89,9 @@ describe ( "Tennis Game" ,function()
         var score = teampoint(40,15);
     }
     //ตกลงอาจารย์บอลให้คอมมิตขั้นต่ำกี่คอมมิตอ่า
+  it('Should be "A Win the game" when A=40 and B=30'),function()
+    {
+        var score = teampoint(40,30);
+    }
+    //เพื่อนบอกได้เรื่อยๆ งงไปหมดแล้วตอนนี้555
 });
