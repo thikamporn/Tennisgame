@@ -1,37 +1,29 @@
-function tennis()
+function tennispoint()
 {
-  this.scoreA;
-  this.scoreB;
-}
-
-function playAGetscore(Apoint)
-{
-  this.scoreA = Apoint;
-}
-function playBGetscore(Bpoint)
-{
-  this.scoreB = Bpoint;
-}
-function echo()
-{
+  this.playAGetscore = '';
+  this.playBGetscore = '';
+  this.echo = function()
+  {
     var str = '';
 
-    if(this.scoreA === 0 )
+    if(this.playAGetscore === 0)
       {
           str += 'Love-';
       }
-    if(this.scoreB === 0)
+    if(this.playBGetscore === 0)
       {
           str += 'Love';
       }
       return str;
-  }
-  describe("Tennis game", function){
+  };
+}
+
+  describe('Tennis game', function(){
 	  it('should  be  "Love = Love" when starting the game',function()
 	  {
-       var point = new tennis();
-	      playAGetscore(0);
-	      playBGetscore(0);
-	      expect(echo()).toEual('Love-Love');
+       var point = new tennispoint();
+	      point.playAGetscore = 0;
+	      point.playBGetscore = 0;
+	      expect(point.echo()).toEqual('Love-Love');
 	  });
   });
