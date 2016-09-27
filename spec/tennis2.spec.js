@@ -27,9 +27,9 @@ function echo()
       return str;
   }
   describe("Tennis game", function){
-    var point = new tennis();
 	  it('should  be  "Love = Love" when starting the game',function()
 	  {
+       var point = new tennis();
 	      playAGetscore(0);
 	      playBGetscore(0);
 	      expect(echo()).toEual('Love-Love');
