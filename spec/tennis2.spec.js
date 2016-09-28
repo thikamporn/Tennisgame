@@ -52,7 +52,7 @@ this.echo = function()
  {
     strA = 'A won the game';
     return strA;
-    
+
  }
  return strA+'-'+strB;
 
@@ -78,4 +78,4 @@ describe('Tennis game', function()
  {
   expect(point.playAgetscore()).toEqual('A won the game');
  });
-});
+});//caseA
